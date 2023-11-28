@@ -49,7 +49,7 @@ To create a new project, simply run:
 
 ```bash
 cproj <project-name> [options]
-     ```
+```
 ## Options
 1. -p, --python-venv: Create a Python virtual environment inside the project.
 1. -g, --git: Initialize a Git repository and create a .gitignore file.
@@ -60,17 +60,17 @@ Create a basic project:
 
 ```bash
 cproj myproject
-     ```
+```
 Create a project with a Python virtual environment and Git initialization:
 
 ```bash
 cproj myproject -pg
-     ```
+```
 Create a full-stack project (Python virtual environment, Git, and Docker):
 
 ```bash
 cproj myproject -pgd
-     ```
+```
 
 ## Contributing
 Contributions to cproj are welcome! Feel free to fork the repository, make changes, and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
